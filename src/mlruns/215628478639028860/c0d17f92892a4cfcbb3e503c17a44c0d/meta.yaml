@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/91994/WaterQualityPrediction/src/mlruns/215628478639028860/c0d17f92892a4cfcbb3e503c17a44c0d/artifacts
+end_time: 1760145106881
+entry_point_name: ''
+experiment_id: '215628478639028860'
+lifecycle_stage: active
+run_id: c0d17f92892a4cfcbb3e503c17a44c0d
+run_name: salty-skink-426
+run_uuid: c0d17f92892a4cfcbb3e503c17a44c0d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760145103192
+status: 4
+tags: []
+user_id: thivya

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/91994/WaterQualityPrediction/src/mlruns/215628478639028860/6e971d360fd5490e8af22d32dee275f2/artifacts
+end_time: 1760698396617
+entry_point_name: ''
+experiment_id: '215628478639028860'
+lifecycle_stage: active
+run_id: 6e971d360fd5490e8af22d32dee275f2
+run_name: hilarious-bear-234
+run_uuid: 6e971d360fd5490e8af22d32dee275f2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760698381258
+status: 3
+tags: []
+user_id: thivya

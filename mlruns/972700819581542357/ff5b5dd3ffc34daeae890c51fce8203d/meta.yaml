@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/972700819581542357/ff5b5dd3ffc34daeae890c51fce8203d/artifacts
+end_time: 1760164745834
+entry_point_name: ''
+experiment_id: '972700819581542357'
+lifecycle_stage: active
+run_id: ff5b5dd3ffc34daeae890c51fce8203d
+run_name: angry-sloth-194
+run_uuid: ff5b5dd3ffc34daeae890c51fce8203d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760164730417
+status: 3
+tags: []
+user_id: thivya

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/91994/WaterQualityPrediction/src/mlruns/215628478639028860/4c66bc82063943f4b255ecd3588d48bf/artifacts
+end_time: 1759843199081
+entry_point_name: ''
+experiment_id: '215628478639028860'
+lifecycle_stage: active
+run_id: 4c66bc82063943f4b255ecd3588d48bf
+run_name: sneaky-mink-288
+run_uuid: 4c66bc82063943f4b255ecd3588d48bf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1759843198945
+status: 4
+tags: []
+user_id: thivya

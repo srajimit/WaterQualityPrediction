@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1760164745530
+current_stage: Production
+description: ''
+last_updated_timestamp: 1760164745711
+name: WaterQualityModel
+run_id: ff5b5dd3ffc34daeae890c51fce8203d
+run_link: ''
+source: mlflow-artifacts:/972700819581542357/ff5b5dd3ffc34daeae890c51fce8203d/artifacts/WQ_RandomForestModel
+status: READY
+status_message: null
+storage_location: mlflow-artifacts:/972700819581542357/ff5b5dd3ffc34daeae890c51fce8203d/artifacts/WQ_RandomForestModel
+user_id: null
+version: 1

@@ -1,0 +1,16 @@
+FROM python:3.11-slim
+
+WORKDIR /app
+
+# Install dependencies
+COPY Requirements.txt /app/Requirements.txt
+RUN pip install --no-cache-dir -r Requirements.txt
+
+# Copy source code
+COPY src/ ./src
+
+# Expose Flask port
+EXPOSE 5000
+
+# Run Flask app
+CMD ["python", "src/flaskapp.py"]

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/91994/WaterQualityPrediction/src/mlruns/215628478639028860/8fc8a69043b343ae946da49ef68c4029/artifacts
+end_time: 1760145265658
+entry_point_name: ''
+experiment_id: '215628478639028860'
+lifecycle_stage: active
+run_id: 8fc8a69043b343ae946da49ef68c4029
+run_name: enthused-duck-348
+run_uuid: 8fc8a69043b343ae946da49ef68c4029
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760145251443
+status: 3
+tags: []
+user_id: thivya

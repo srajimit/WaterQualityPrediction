@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/91994/WaterQualityPrediction/src/mlruns/215628478639028860/b52ed7d106e24ccfa26d1a8869669d17/artifacts
+end_time: 1760006428798
+entry_point_name: ''
+experiment_id: '215628478639028860'
+lifecycle_stage: active
+run_id: b52ed7d106e24ccfa26d1a8869669d17
+run_name: receptive-grouse-142
+run_uuid: b52ed7d106e24ccfa26d1a8869669d17
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760006410505
+status: 3
+tags: []
+user_id: thivya

@@ -1,0 +1,17 @@
+FROM python:3.11-slim
+
+WORKDIR /mlflow
+
+# Install MLflow
+RUN pip install --no-cache-dir mlflow==2.12.2
+
+# Create folders for artifacts and DB
+RUN mkdir -p /mlflow/artifacts
+RUN mkdir -p /mlflow
+
+
+# Expose MLflow port
+EXPOSE 5000
+
+# Start MLflow server
+CMD ["mlflow", "server", "--backend-store-uri", "sqlite:///mlflow/mlflow.db", "--default-artifact-root", "/mlflow/artifacts", "--host", "0.0.0.0", "--port", "5000"]

@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1760145265602
+current_stage: None
+description: ''
+last_updated_timestamp: 1760145265602
+name: WaterQualityModel
+run_id: 8fc8a69043b343ae946da49ef68c4029
+run_link: ''
+source: file:///C:/Users/91994/WaterQualityPrediction/src/mlruns/215628478639028860/8fc8a69043b343ae946da49ef68c4029/artifacts/model
+status: READY
+status_message: null
+storage_location: file:///C:/Users/91994/WaterQualityPrediction/src/mlruns/215628478639028860/8fc8a69043b343ae946da49ef68c4029/artifacts/model
+user_id: null
+version: 1

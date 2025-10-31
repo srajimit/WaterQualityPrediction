@@ -1,0 +1,64 @@
+version: "3.9"
+
+services:
+  mlflow_server:
+    build:
+      context: .
+      dockerfile: Dockerfile.mlflow
+    container_name: mlflow_server
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./mlflow:/mlflow # MLflow DB + artifacts persisted here
+    networks:
+      - wq_network
+    healthcheck:
+      # healthcheck ensures the HTTP API is responding
+      test:
+        [
+          "CMD-SHELL",
+          "curl -fsS http://localhost:5000/api/2.0/mlflow/experiments/list || exit 1",
+        ]
+      interval: 5s
+      timeout: 5s
+      retries: 40
+      start_period: 5s
+
+  train:
+    build:
+      context: .
+      dockerfile: Dockerfile.train
+    container_name: train_container
+    environment:
+      - MLFLOW_TRACKING_URI=http://mlflow_server:5000
+    volumes:
+      - ./src:/app/src
+      - ./mlflow:/mlflow
+    depends_on:
+      - mlflow_server
+    networks:
+      - wq_network
+    # train runs once and exits when finished
+
+  flask_app:
+    build:
+      context: .
+      dockerfile: Dockerfile.flask
+    container_name: flask_app
+    working_dir: /app
+    environment:
+      - MLFLOW_TRACKING_URI=http://mlflow_server:5000
+    ports:
+      - "6000:5000"
+    volumes:
+      - ./src:/app/src
+      - ./mlflow:/mlflow
+    depends_on:
+      - mlflow_server
+      - train
+    networks:
+      - wq_network
+
+networks:
+  wq_network:
+    driver: bridge

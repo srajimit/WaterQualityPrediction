@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/91994/WaterQualityPrediction/src/mlruns/215628478639028860/923fff4449704221891005a1d782f85a/artifacts
+end_time: 1759858977737
+entry_point_name: ''
+experiment_id: '215628478639028860'
+lifecycle_stage: active
+run_id: 923fff4449704221891005a1d782f85a
+run_name: legendary-rat-964
+run_uuid: 923fff4449704221891005a1d782f85a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1759858958509
+status: 3
+tags: []
+user_id: thivya

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/972700819581542357/f25f30c51d1c422a8d1ecf685e7382c4/artifacts
+end_time: 1760166279909
+entry_point_name: ''
+experiment_id: '972700819581542357'
+lifecycle_stage: active
+run_id: f25f30c51d1c422a8d1ecf685e7382c4
+run_name: brawny-auk-437
+run_uuid: f25f30c51d1c422a8d1ecf685e7382c4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760166266318
+status: 3
+tags: []
+user_id: thivya
